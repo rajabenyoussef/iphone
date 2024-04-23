@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href ="style.css">
+  <title>I PHONE SHOP</title>
+
+</head>
+<body>
+
+  <h1>I_PHONE_SHOP</h1>
+
+  <div id="listeProduits">
+    <!-- Produit 1 -->
+    <div class="produit" id="produit1">
+      <button onclick="supprimerProduit(1)">X</button>
+      <h2>I Phone 13</h2>
+      <img src="https://wp-pa.phonandroid.com/uploads/2021/09/iphone-12-versus-iphone-13.jpg" alt="iphone13"  class="produit-image">
+      <p>Prix unitaire : 3699 DT</p>
+      <p>Quantité : <span id="quantiteProduit1">0</span></p>
+      <p>Total : <span id="totalProduit1">0</span> DT</p>
+      <span class="coeur" onclick="toggleCoeur(1)">&#10084;</span>
+      <button onclick="incrementer(1)">+</button>
+      <button onclick="decrementer(1)">-</button>
+      
+    </div>
+
+    <!-- Produit 2 -->
+    <div class="produit" id="produit2">
+      <button onclick="supprimerProduit(2)">X</button>
+      <h2>I Phone 13 Pro</h2>
+      <img src="https://consomac.fr/images/news/differences-iphone-13-13-pro.jpg" alt="iphone-13 pro" class="produit-image">
+      <p>Prix unitaire : 4699 DT</p>
+      <p>Quantité : <span id="quantiteProduit2">0</span></p>
+      <p>Total : <span id="totalProduit2">0</span> DT</p>
+      <span class="coeur" onclick="toggleCoeur(2)">&#10084;</span>
+      <button onclick="incrementer(2)">+</button>
+      <button onclick="decrementer(2)">-</button>
+     
+    </div>
+
+     <!-- Produit 3 -->
+     <div class="produit" id="produit3">
+      <button onclick="supprimerProduit(3)">X</button>
+      <h2>I Phone 14</h2>
+      <img src="https://img-api.mac4ever.com/1200/0/48f40ac320_apple-iphone-14.png" alt="iphone-14" class="produit-image">
+      <p>Prix unitaire : 4099 DT</p>
+      <p>Quantité : <span id="quantiteProduit3">0</span></p>
+      <p>Total : <span id="totalProduit3">0</span> DT</p>
+      <span class="coeur" onclick="toggleCoeur(3)">&#10084;</span>
+      <button onclick="incrementer(3)">+</button>
+      <button onclick="decrementer(3)">-</button>
+     
+    </div>
+
+    <!-- Produit 4 -->
+    <div class="produit" id="produit4">
+      <button onclick="supprimerProduit(4)">X</button>
+      <h2>I Phone 14 Pro</h2>
+      <img src="https://i0.wp.com/goldenphone.tn/wp-content/uploads/2022/09/apple-iphone-14-pro-4.jpg?fit=710%2C507&ssl=1" alt="iphone-14 pro" class="produit-image">
+      <p>Prix unitaire : 5849 DT</p>
+      <p>Quantité : <span id="quantiteProduit4">0</span></p>
+      <p>Total : <span id="totalProduit4">0</span> DT</p>
+      <span class="coeur" onclick="toggleCoeur(4)">&#10084;</span>
+      <button onclick="incrementer(4)">+</button>
+      <button onclick="decrementer(4)">-</button>
+      
+    </div>
+
+    <!-- Produit 5 -->
+    <div class="produit" id="produit5">
+      <button onclick="supprimerProduit(5)">X</button>
+      <h2>I Phone 15</h2>
+      <img src="https://wp-pa.phonandroid.com/uploads/2023/09/apple-iphone-15-dossier-9.jpg" alt="iphone-15" class="produit-image">
+      <p>Prix unitaire : 6200 DT</p>
+      <p>Quantité : <span id="quantiteProduit5">0</span></p>
+      <p>Total : <span id="totalProduit5">0</span> DT</p>
+      <span class="coeur" onclick="toggleCoeur(5)">&#10084;</span>
+      <button onclick="incrementer(5)">+</button>
+      <button onclick="decrementer(5)">-</button>
+     
+    </div>
+
+
+  </div>
+
+  <div id="totalAchats">
+    <h2>Total des achats : <span id="totalAchatsValeur">0</span> DT</h2>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
